@@ -1,0 +1,87 @@
+*,
+*:before,
+*:after {
+  padding: 0;
+  margin: 0;
+  border: 0;
+  box-sizing: border-box;
+  font-family: Georgia, serif;
+}
+
+body {
+  background-color: #f6f6f6;
+  background: url('/img/noise_transparent.png') repeat;
+}
+
+.h1 {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 35px;
+  line-height: 130%;
+  letter-spacing: 0.06em;
+  color: #545454;
+}
+
+.h2 {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 20px;
+  line-height: 115%;
+  letter-spacing: 0.06em;
+  color: #545454;
+}
+
+.heading {
+  margin: 40px 0 45px;
+  text-align: center;
+}
+
+.container {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  padding: 60px 0 200px;
+}
+
+.cards{
+  max-width: 1200px;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+}
+
+.card {
+  width: 270px;
+  height: 435px;
+  margin: 20px 15px;
+  background-color: #fafafa;
+  border-radius: 9px;
+  overflow: hidden;
+}
+
+.card-content {
+  padding: 30px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.card-button {
+  margin-top: 30px;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 17px;
+  line-height: 130%;
+  letter-spacing: 0.06em;
+  color: #292929;
+  padding: 15px 45px;
+  border: 2px solid #fddcc4;
+  border-radius: 100px;
+  background-color: #ffffff;
+}
+
+.card-button:hover {
+  background-color: #fddcc4;
+  cursor: pointer;
+}
